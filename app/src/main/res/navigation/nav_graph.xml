@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/contact_fragment">
+
+    <fragment
+        android:id="@+id/contact_fragment"
+        android:name="com.mvi.contacts.contacts.ContactsFragment">
+
+        <action
+            android:id="@+id/go_to_add_contact"
+            app:destination="@id/add_fragment">
+
+            <argument
+                android:name="contact"
+                app:argType="com.mvi.contacts.data.Contact" />
+            <argument
+                android:name="is_edit"
+                app:argType="boolean" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/add_fragment"
+        android:name="com.mvi.contacts.contacts.AddContactFragment" />
+
+</navigation>

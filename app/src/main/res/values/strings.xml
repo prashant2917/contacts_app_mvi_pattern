@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Contacts App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hint_enter_first_name">Enter First Name</string>
+    <string name="hint_enter_middle_name">Enter Middle Name</string>
+    <string name="hint_enter_last_name">Enter Last Name</string>
+    <string name="hint_enter_mobile_no">Enter Mobile Number</string>
+    <string name="hint_enter_email_id">Enter Email id</string>
+    <string name="hint_enter_address">Enter Address</string>
+    <string name="submit">Submit</string>
+    <string name="edit_image">Edit Image</string>
+
+    <!--error message-->
+    <string name="error_enter_valid_first_name">Enter Valid First Name</string>
+    <string name="error_enter_valid_middle_name">Enter Valid Middle Name</string>
+    <string name="error_enter_valid_last_name">Enter Valid Last Name</string>
+    <string name="error_enter_valid_mobile_number">Enter Valid Mobile Number</string>
+    <string name="error_enter_Valid_email_address">Enter Valid Email Address</string>
+    <string name="error_enter_Valid_address">Enter Valid Address</string>
+
 </resources>
