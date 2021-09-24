@@ -12,9 +12,6 @@
     <dimen name="text_size_medium">20sp</dimen>
     <dimen name="text_size_regular">16sp</dimen>
 
-    <dimen name="profile_min_width">70dp</dimen>
-    <dimen name="profile_min_height">70dp</dimen>
-
     <!--circular image dimens-->
     <dimen name="circular_image_radius">2dp</dimen>
     <dimen name="circular_image_width_row">70dp</dimen>

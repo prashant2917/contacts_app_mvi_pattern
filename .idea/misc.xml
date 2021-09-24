@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/androidProjects/contact_app_mvi_pattern/contacts_app_mvi_pattern/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
         <entry key="..\:/androidProjects/contact_app_mvi_pattern/contacts_app_mvi_pattern/app/src/main/res/drawable/ic_dummy_profile_pic.xml" value="0.2046875" />
+        <entry key="..\:/androidProjects/contact_app_mvi_pattern/contacts_app_mvi_pattern/app/src/main/res/drawable/ic_edit.xml" value="0.1" />
       </map>
     </option>
   </component>
