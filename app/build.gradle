@@ -22,15 +22,15 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    signingConfigs {
+    /*signingConfigs {
         release
-    }
+    }*/
 
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
+            //signingConfig signingConfigs.release
         }
     }
     compileOptions {
@@ -102,6 +102,7 @@ dependencies {
 
     implementation 'androidx.multidex:multidex:2.0.1'
 }
+/*
 def Properties props = new Properties()
 def propFile = new File('signing.properties')
 if (propFile.canRead()) {
@@ -113,6 +114,7 @@ if (propFile.canRead()) {
         android.signingConfigs.release.storePassword = props['RELEASE_STORE_PASSWORD']
         android.signingConfigs.release.keyAlias = props['RELEASE_KEY_ALIAS']
         android.signingConfigs.release.keyPassword = props['RELEASE_KEY_PASSWORD']
+
     } else {
         println 'signing.properties found but some entries are missing'
         android.buildTypes.release.signingConfig = null
@@ -120,4 +122,4 @@ if (propFile.canRead()) {
 } else {
     println 'signing.properties not found'
     android.buildTypes.release.signingConfig = null
-}
+}*/
